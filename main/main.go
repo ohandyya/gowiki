@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"gowiki"
 	"log"
 	"net/http"
 	"regexp"
 	"text/template"
+
+	"github.com/ohandyya/gowiki"
 )
 
 var templates = template.Must(template.ParseFiles("edit.html", "view.html"))
